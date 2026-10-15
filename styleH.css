@@ -28,7 +28,15 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    margin-bottom: 45px;
+    position: relative;
+}
+.gallery .gallery-before-and-after {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    position: relative;
+    bottom: -80px;
+    
 }
 
 .gallery .eyebrow {
@@ -47,6 +55,7 @@ body {
     vertical-align: middle;
     margin-right: 10px;
 }
+
 
 .gallery h1 {
 
