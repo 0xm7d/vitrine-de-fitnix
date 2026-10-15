@@ -20,17 +20,17 @@ body {
     padding: 60px 40px;
 }
 
-.gallery .section-label {
+.section-label {
     display: none;
 }
 
-.gallery .gallery-header {
+.gallery-header {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
     position: relative;
 }
-.gallery .gallery-before-and-after {
+.gallery-before-and-after {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
@@ -39,14 +39,14 @@ body {
     
 }
 
-.gallery .eyebrow {
+.eyebrow {
     color: var(--yellow);
     font-size: 12px;
     letter-spacing: 1px;
     margin-bottom: 10px;
 }
 
-.gallery .eyebrow::before {
+.eyebrow::before {
     content: "";
     display: inline-block;
     width: 30px;
@@ -64,27 +64,27 @@ body {
     line-height: 1;
 }
 
-.gallery .intro {
+.intro {
     color: #aaa;
     font-size: 14px;
     line-height: 1.6;
     max-width: 500px;
 }
 
-.gallery .gallery-grid {
+.gallery-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 15px;
 }
 
-.gallery .gallery-card {
+.gallery-card {
     position: relative;
   aspect-ratio: 226 / 352;
     border-radius: 6px;
     overflow: hidden;
 }
 
-.gallery .gallery-card img {
+.gallery-card img {
     position: absolute;
     top: 0;
     left: 0;
@@ -93,7 +93,7 @@ body {
     object-fit: cover;
 }
 
-.gallery .number {
+.number {
     position: absolute;
     top: 20px;
     left: 22px;
@@ -102,7 +102,7 @@ body {
     color: var(--yellow);
 }
 
-.gallery .gallery-content {
+.gallery-content {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -111,26 +111,26 @@ body {
     background: linear-gradient(to top, rgba(0, 0, 0, 0.95), transparent);
 }
 
-.gallery .gallery-content h2 {
+.gallery-content h2 {
     font-family: 'Bebas Neue', sans-serif;
     font-size: 24px;
     font-weight: 400;
     margin-bottom: 8px;
 }
 
-.gallery .gallery-content p {
+.gallery-content p {
     color: var(--yellow);
     font-size: 12px;
     line-height: 1.5;
     margin-bottom: 14px;
 }
 
-.gallery .gallery-info {
+.gallery-info {
     display: flex;
     gap: 12px;
 }
 
-.gallery .gallery-info span {
+.gallery-info span {
     color: var(--yellow);
     font-size: 10px;
     font-weight: 600;
