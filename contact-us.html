@@ -5,24 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header class="navbar">
-        <center> <a href="index.html" class="logo"><img src="image/logo.png" alt="logo">Fitnex</a>
-        </center>
+
+        <a href="index.html" class="logo">
+            <img src="image/logo.png" alt="logo">
+            Fitnex
+        </a>
+
+        <input type="checkbox" id="menu-toggle">
+
+        <label for="menu-toggle" class="menu-icon">
+            ☰
+        </label>
+
         <nav class="menu">
+            <label for="menu-toggle" class="close-menu">×</label>
+
             <a href="index.html" class="lien-actif">About</a>
             <a href="programs.html">Program</a>
-            <a href="">Trainers</a>
+            <a href="galleryH.html">Trainers</a>
             <a href="pricing.html">Pricing</a>
             <a href="testimonial.html">Testimonial</a>
+            <a href="contact-us.html" class="mobile-contact">CONTACT US</a>
         </nav>
-
 
         <a href="contact-us.html" class="contact-btn">
             <div class="bt">CONTACT US</div>
         </a>
+
     </header>
     <main >
         <section>
