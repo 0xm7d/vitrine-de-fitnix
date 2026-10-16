@@ -90,7 +90,7 @@ align-items: center;
 padding: 150px;
 gap: 80px;
 
-background-image: url("./Images/pucter.contact-us.avif");
+background-image: url("./image/pucter.contact-us.avif");
 background-position: center;
 }
 .information{
@@ -102,14 +102,14 @@ background-color: #2a1f1f;
 width: 550px;
 height: 440px;
 }
-#btn{
+.btn{
     background-color: #FFDB58;
     width: 300px;
     height: 35px;
     border-color: #FFDB58;
     border: none;
 }
-.h1{
+h1{
     color: white;
 }
 h3{
@@ -182,4 +182,67 @@ hr{
     width: auto;
     height: 1px;
     background-color: gray;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    gap: 145px;
+}
+.footer-logo{
+    display: flex;
+    margin-top: 0px;
+    margin-left: 0%;
+    width: 30%;
+}
+.footer-form{
+    display:flex ;
+    width: 250px;
+    height: 35px;
+}
+#footer-btn{
+    color: black;
+    border:none;
+    border-radius: 3px;
+    background-color: yellow;
+    width: 50px;
+    height: 38px;
+}
+#footer-inp{
+    color:gray;
+    background-color: black;
+    border-radius: 3px;
+    border: solid gray 1px;
+    width: 200PX;
+    height: 35px;
+}
+.big-fitnix{
+    color: #2a1f1f;
+    font-size: 150px;
+    margin-top: 10px;
+}
+.footer-one{
+    width: 25%;
+    height: 30%;
+    gap: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-one-p{
+    margin-top: 0px;
+    margin-left: 20px;
+}
+.footer-tree{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-tree-last{
+    display: flex;
+    margin-right: 10px;
+    gap: 20px;
+}
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: none;
 }
