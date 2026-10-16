@@ -1,0 +1,248 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black; 
+}
+        html {
+            background-color: #0d0d0d;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 5%;
+            position: fixed;
+            top: 0;
+            left: 0px;
+            width: 100%;
+            box-sizing: border-box;
+            z-index: 1000;
+            background-color: black;
+        }
+
+        .menu {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+
+        }
+
+        .menu a {
+            color: white;
+            text-decoration: none;
+            font-size: 15px;
+            position: relative;
+            left: -720px;
+
+
+
+        }
+
+        .menu :hover {
+            color: #ffd700;
+        }
+
+        .contact-btn {
+            background-color: white;
+            color: rgb(36, 35, 37);
+            padding: 5px 15px;
+            padding-right: 1px;
+            text-decoration: none;
+            font-size: 15px;
+            font-weight: bold;
+            position: absolute;
+            right: 150px;
+            width: 110px;
+            height: 30px;
+            top: 21px;
+
+        }
+
+        .bt {
+            position: relative;
+            bottom: -5px;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+
+            position: static;
+            color: white;
+            text-decoration: none;
+            font-size: 25px;
+            font-weight: bold;
+            flex-shrink: 0;
+            margin-left: 120px;
+        }
+
+        .logo img {
+            width: 25px;
+            height: 40px;
+            left: 15px;
+        }
+.section{
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 150px;
+gap: 80px;
+
+background-image: url("./image/pucter.contact-us.avif");
+background-position: center;
+}
+.information{
+width: 850px;
+height: auto;
+}
+.formular{
+background-color: #2a1f1f;
+width: 550px;
+height: 440px;
+}
+.btn{
+    background-color: #FFDB58;
+    width: 300px;
+    height: 35px;
+    border-color: #FFDB58;
+    border: none;
+}
+h1{
+    color: white;
+}
+h3{
+    color: white;
+}
+#h5{
+    color: yellow;
+}
+h6{
+    display: flex;
+    color:white;
+}
+p{
+    display: flex;
+    color:gray;
+}
+hr{
+    background-color: gray;
+    width: 100%;
+    height: 2px;
+}
+.inp{
+    color:white;    
+    border:none;    
+    background-color: black ;
+    display: block;
+    margin-bottom: 20px;
+    width: 300px;
+    height: 35px;
+}
+.icons{
+    display: flex;
+    align-items: center;
+}
+#textarea{
+    background-color: black ;
+    color:white;
+    border:none;
+    display: block;
+    width: 300px;
+    height: 60px;
+    margin-bottom: 20px;
+}
+.section-faq{
+   margin:15px 15px;
+    margin-top: 170px;
+}
+.div-faq{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:250px;
+    height: 505px;
+   
+}
+.ss{
+   width: 50vw;
+   height: 100%;
+}
+.cc{
+    width: 50vw;
+    height: 100%;
+}
+.hwithicons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.line{
+    width: auto;
+    height: 1px;
+    background-color: gray;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    gap: 145px;
+}
+.footer-logo{
+    display: flex;
+    margin-top: 0px;
+    margin-left: 0%;
+    width: 30%;
+}
+.footer-form{
+    display:flex ;
+    width: 250px;
+    height: 35px;
+}
+#footer-btn{
+    color: black;
+    border:none;
+    border-radius: 3px;
+    background-color: yellow;
+    width: 50px;
+    height: 38px;
+}
+#footer-inp{
+    color:gray;
+    background-color: black;
+    border-radius: 3px;
+    border: solid gray 1px;
+    width: 200PX;
+    height: 35px;
+}
+.big-fitnix{
+    color: #2a1f1f;
+    font-size: 150px;
+    margin-top: 10px;
+}
+.footer-one{
+    width: 25%;
+    height: 30%;
+    gap: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-one-p{
+    margin-top: 0px;
+    margin-left: 20px;
+}
+.footer-tree{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-tree-last{
+    display: flex;
+    margin-right: 10px;
+    gap: 20px;
+}
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: none;
+}
